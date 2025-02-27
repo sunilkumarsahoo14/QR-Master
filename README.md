@@ -23,9 +23,13 @@ git clone https://github.com/sunilkumarsahoo14/QR-Master.git
 
 # 🛠 Tech Stack
 🔹 HTML
+
 🔹 CSS
+
 🔹 JavaScript
+
 🔹 AJAX Lib. (QR Generator)
+
 
 # 💡 How to Contribute
 Want to improve this project? Follow these steps:
@@ -44,10 +48,17 @@ This project is open-source and available under the MIT License.
 If you have any questions, feel free to contact me:
 
 📧 Email: contact.sksahoo@gmail.com
+
 📱 GitHub: https://github.com/sunilkumarsahoo14/
+
 ▶️ YouTube: https://www.youtube.com/@MyLearningHub
+
 📸 Instagram: https://www.instagram.com/sunilkumarsahoo.in/
+
 📘 Facebook: https://www.facebook.com/sunilkumar143sibu
+
 🐦 Twitter: https://twitter.com/SunilKumar_14
+
 🔗 LinkedIn: https://www.linkedin.com/in/sunilkumarsahoo14/
+
 🌐 Website: www.sunilkumarsahoo.in
