@@ -16,10 +16,10 @@ A simple and stylish QR Code Generator web app that allows users to generate and
 ✅ Supports Enter key for quick generation
 
 # 📂 Installation & Usage
-1. Clone The Repo
+1. Clone The Repo 
 git clone https://github.com/sunilkumarsahoo14/QR-Master.git
-cd QR-Master
-2.  Open index.html in a browser to use the web app.
+2. cd QR-Master
+3. Open index.html in a browser to use the web app.
 
 # 🛠 Tech Stack
 🔹 HTML
