@@ -1,8 +1,10 @@
 let qrCodeDiv = document.getElementById("qr-code");
 let downloadBtn = document.getElementById("download-btn");
+let qrTextInput = document.getElementById("qr-text");
 
+// Function to generate QR Code
 function generateQR() {
-    let qrText = document.getElementById("qr-text").value;
+    let qrText = qrTextInput.value;
     qrCodeDiv.innerHTML = ""; // Clear previous QR code
 
     if (qrText.trim() !== "") {
@@ -13,7 +15,7 @@ function generateQR() {
         });
 
         setTimeout(() => {
-            downloadBtn.style.display = "block"; // Download button showing
+            downloadBtn.style.display = "block"; // Show download button after QR is generated
         }, 500);
     } else {
         alert("Please enter text or URL!");
@@ -21,10 +23,10 @@ function generateQR() {
     }
 }
 
+// Function to download QR Code with padding
 function downloadQR() {
     let qrCanvas = qrCodeDiv.querySelector("canvas");
     if (qrCanvas) {
-        // Create a new canvas with padding
         let paddedCanvas = document.createElement("canvas");
         let padding = 10; // 10px padding
         let size = qrCanvas.width + padding * 2;
@@ -51,3 +53,10 @@ function downloadQR() {
         document.body.removeChild(a);
     }
 }
+
+// Listen for "Enter" key press in input field
+qrTextInput.addEventListener("keypress", function(event) {
+    if (event.key === "Enter") {
+        generateQR();
+    }
+});
