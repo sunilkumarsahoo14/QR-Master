@@ -2,6 +2,10 @@
 
 A simple and stylish QR Code Generator web app that allows users to generate and download QR codes with ease.
 
+# It's Live
+
+https://sunilkumarsahoo14.github.io/QR-Master/
+
 # Screenshots
 
 ![Initial Image](image.png)
